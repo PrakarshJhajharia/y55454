@@ -2,6 +2,7 @@ var canvas,drawing=[],db_drawing,button,database;
 
 
 function setup(){
+    //this command creates the canvas for the code
     canvas = createCanvas(displayWidth,displayHeight);
     database = firebase.database();
     button = createButton("clear");
